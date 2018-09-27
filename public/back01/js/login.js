@@ -91,7 +91,7 @@ $(function(){
   })
 
   /*
-  * 2 重置功能完善
+  * 3 重置功能完善
   * 重置内容
   * 重置状态
   * */
@@ -99,5 +99,6 @@ $(function(){
     $('#form').data('bootstrapValidator').resetForm();
   })
 })
+
 
 
