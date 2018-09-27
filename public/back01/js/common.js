@@ -1,7 +1,9 @@
-/*
-* 1-进度条
-* 在第一个ajax发送时开启进度条，在所有ajax完成时结束进度条
-* */
+
+$(function() {
+  /*
+   * 1-进度条
+   * 在第一个ajax发送时开启进度条，在所有ajax完成时结束进度条
+   * */
   $(document).ajaxStart(function(){
     NProgress.start();
   })
@@ -12,3 +14,4 @@
     },3000)
 
   })
+})
