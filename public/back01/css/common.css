@@ -102,6 +102,7 @@ ul {
   position: fixed;
   top: 0;
   padding-left: 180px;
+  z-index: 666;
   transition: all 1s;
 }
 .lt_topbar .icon_menu,
@@ -119,7 +120,6 @@ ul {
   padding-top: 50px;
   padding-left: 180px;
   height: 1000px;
-  background-color: pink;
   transition: all 1s;
 }
 .lt_main .breadcrumb {
