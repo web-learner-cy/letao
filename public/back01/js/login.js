@@ -17,11 +17,11 @@ $(function(){
       invalid: 'glyphicon glyphicon-remove',
       validating: 'glyphicon glyphicon-refresh'
     },
-    //设置校验规则
     //指定校验字段
     fields: {
 
       username : {
+        //设置校验规则
        validators: {
          //不能为空
          notEmpty : {
